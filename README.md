@@ -1,6 +1,6 @@
-# Hotel Nébula — Desafio de Banco de Dados Não Relacional (MongoDB)
+# Banco de Dados Não Relacional (MongoDB) Baseado Em Um Sistema De Hotel RetroFuturista
 
-Hotel Nébula, Nova York, "Era Atômica": um arranhá-céu de 1957 que nunca saiu do futuro. Os quartos se chamam Cabine Sputnik e Suíte Presidente Foguete, o café da manhã é num diner espacial e o robô mordomo está em manutenção. O tema é só ambientação; os dados são todos fictícios.
+Nova York, "Era Atômica": um arranhá-céu de 1957 que saiu do futuro. Os quartos se chamam Cabine Sputnik e Suíte Presidente Foguete, o café da manhã é num diner espacial e o robô mordomo está em manutenção. O tema é só ambientação; os dados são todos fictícios.
 
 ## Conteúdo do repositório
 
