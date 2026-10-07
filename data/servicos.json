@@ -1,0 +1,141 @@
+[
+  {
+    "_id": 1,
+    "nome": "Café da manhã no Diner Espacial",
+    "categoria": "alimentacao",
+    "preco": 45,
+    "disponivel": true,
+    "horario_funcionamento": {
+      "inicio": "06:30",
+      "fim": "11:00"
+    },
+    "tags": [
+      "diner",
+      "milkshake",
+      "panquecas"
+    ]
+  },
+  {
+    "_id": 2,
+    "nome": "Lavanderia a vapor",
+    "categoria": "comodidade",
+    "preco": 80,
+    "disponivel": true,
+    "horario_funcionamento": {
+      "inicio": "08:00",
+      "fim": "18:00"
+    },
+    "tags": [
+      "roupas",
+      "expresso"
+    ]
+  },
+  {
+    "_id": 3,
+    "nome": "Minibar Atômico",
+    "categoria": "alimentacao",
+    "preco": 25,
+    "disponivel": true,
+    "horario_funcionamento": {
+      "inicio": "00:00",
+      "fim": "23:59"
+    },
+    "tags": [
+      "bebidas",
+      "snacks"
+    ]
+  },
+  {
+    "_id": 4,
+    "nome": "Transfer de limusine",
+    "categoria": "transporte",
+    "preco": 120,
+    "disponivel": true,
+    "horario_funcionamento": {
+      "inicio": "05:00",
+      "fim": "23:00"
+    },
+    "tags": [
+      "aeroporto",
+      "limusine"
+    ]
+  },
+  {
+    "_id": 5,
+    "nome": "Sala de Pinball e Jukebox",
+    "categoria": "entretenimento",
+    "preco": 60,
+    "disponivel": true,
+    "horario_funcionamento": {
+      "inicio": "14:00",
+      "fim": "23:00"
+    },
+    "tags": [
+      "pinball",
+      "jukebox",
+      "retro"
+    ]
+  },
+  {
+    "_id": 6,
+    "nome": "Cinema Drive-in no Terraço",
+    "categoria": "entretenimento",
+    "preco": 70,
+    "disponivel": true,
+    "horario_funcionamento": {
+      "inicio": "19:00",
+      "fim": "23:30"
+    },
+    "tags": [
+      "cinema",
+      "ficcao_cientifica",
+      "terraco"
+    ]
+  },
+  {
+    "_id": 7,
+    "nome": "Coquetel no Bar Órbita",
+    "categoria": "alimentacao",
+    "preco": 55,
+    "disponivel": true,
+    "horario_funcionamento": {
+      "inicio": "17:00",
+      "fim": "02:00"
+    },
+    "tags": [
+      "coquetel",
+      "bar",
+      "musica_ao_vivo"
+    ]
+  },
+  {
+    "_id": 8,
+    "nome": "Tour pelo Observatório",
+    "categoria": "experiencia",
+    "preco": 180,
+    "disponivel": true,
+    "horario_funcionamento": {
+      "inicio": "20:00",
+      "fim": "22:00"
+    },
+    "tags": [
+      "astronomia",
+      "telescopio"
+    ]
+  },
+  {
+    "_id": 9,
+    "nome": "Robô Mordomo Particular",
+    "categoria": "comodidade",
+    "preco": 150,
+    "disponivel": false,
+    "horario_funcionamento": {
+      "inicio": "00:00",
+      "fim": "23:59"
+    },
+    "tags": [
+      "robo",
+      "atendimento"
+    ]
+  }
+]

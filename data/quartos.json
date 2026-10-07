@@ -1,0 +1,301 @@
+[
+  {
+    "_id": 1,
+    "numero": "101",
+    "nome_tematico": "Cabine Sputnik",
+    "tipo": "standard",
+    "andar": 1,
+    "capacidade": 2,
+    "preco_diaria": 180,
+    "status": "disponivel",
+    "vista": "jardim",
+    "caracteristicas": [
+      "vista_jardim",
+      "radio_retro",
+      "ar_condicionado"
+    ],
+    "dimensoes": {
+      "area_m2": 22,
+      "camas": [
+        {
+          "tipo": "casal",
+          "quantidade": 1
+        }
+      ]
+    },
+    "historico_manutencao": [
+      {
+        "data": {
+          "$date": "2026-02-03T09:00:00Z"
+        },
+        "descricao": "Troca do rádio de válvulas"
+      }
+    ]
+  },
+  {
+    "_id": 2,
+    "numero": "102",
+    "nome_tematico": "Cabine Atômica",
+    "tipo": "standard",
+    "andar": 1,
+    "capacidade": 2,
+    "preco_diaria": 190,
+    "status": "disponivel",
+    "vista": "jardim",
+    "caracteristicas": [
+      "vista_jardim",
+      "radio_retro",
+      "tv_retro"
+    ],
+    "dimensoes": {
+      "area_m2": 24,
+      "camas": [
+        {
+          "tipo": "solteiro",
+          "quantidade": 2
+        }
+      ]
+    },
+    "historico_manutencao": []
+  },
+  {
+    "_id": 3,
+    "numero": "201",
+    "nome_tematico": "Suíte Aurora Boreal",
+    "tipo": "luxo",
+    "andar": 2,
+    "capacidade": 3,
+    "preco_diaria": 420,
+    "status": "disponivel",
+    "vista": "mar",
+    "caracteristicas": [
+      "vista_mar",
+      "banheira",
+      "luxo",
+      "ar_condicionado"
+    ],
+    "dimensoes": {
+      "area_m2": 38,
+      "camas": [
+        {
+          "tipo": "casal",
+          "quantidade": 1
+        },
+        {
+          "tipo": "solteiro",
+          "quantidade": 1
+        }
+      ]
+    },
+    "historico_manutencao": []
+  },
+  {
+    "_id": 4,
+    "numero": "202",
+    "nome_tematico": "Suíte Horizonte Cósmico",
+    "tipo": "luxo",
+    "andar": 2,
+    "capacidade": 3,
+    "preco_diaria": 450,
+    "status": "ocupado",
+    "vista": "mar",
+    "caracteristicas": [
+      "vista_mar",
+      "luxo",
+      "varanda",
+      "tv_retro"
+    ],
+    "dimensoes": {
+      "area_m2": 40,
+      "camas": [
+        {
+          "tipo": "casal",
+          "quantidade": 1
+        },
+        {
+          "tipo": "solteiro",
+          "quantidade": 1
+        }
+      ]
+    },
+    "historico_manutencao": []
+  },
+  {
+    "_id": 5,
+    "numero": "301",
+    "nome_tematico": "Suíte Presidente Foguete",
+    "tipo": "suite",
+    "andar": 3,
+    "capacidade": 4,
+    "preco_diaria": 780,
+    "status": "disponivel",
+    "vista": "mar",
+    "caracteristicas": [
+      "vista_mar",
+      "banheira",
+      "luxo",
+      "varanda",
+      "robo_mordomo"
+    ],
+    "dimensoes": {
+      "area_m2": 62,
+      "camas": [
+        {
+          "tipo": "king",
+          "quantidade": 1
+        },
+        {
+          "tipo": "solteiro",
+          "quantidade": 2
+        }
+      ]
+    },
+    "historico_manutencao": []
+  },
+  {
+    "_id": 6,
+    "numero": "302",
+    "nome_tematico": "Apartamento Família Orbital",
+    "tipo": "familia",
+    "andar": 3,
+    "capacidade": 5,
+    "preco_diaria": 560,
+    "status": "disponivel",
+    "vista": "cidade",
+    "caracteristicas": [
+      "vista_cidade",
+      "duas_camas_casal",
+      "berco_disponivel"
+    ],
+    "dimensoes": {
+      "area_m2": 55,
+      "camas": [
+        {
+          "tipo": "casal",
+          "quantidade": 2
+        },
+        {
+          "tipo": "solteiro",
+          "quantidade": 1
+        }
+      ]
+    },
+    "historico_manutencao": []
+  },
+  {
+    "_id": 7,
+    "numero": "401",
+    "nome_tematico": "Cobertura Estação Lunar",
+    "tipo": "cobertura",
+    "andar": 4,
+    "capacidade": 4,
+    "preco_diaria": 1100,
+    "status": "disponivel",
+    "vista": "panoramica",
+    "caracteristicas": [
+      "vista_panoramica",
+      "banheira",
+      "luxo",
+      "terraco",
+      "robo_mordomo"
+    ],
+    "dimensoes": {
+      "area_m2": 95,
+      "camas": [
+        {
+          "tipo": "king",
+          "quantidade": 2
+        }
+      ]
+    },
+    "historico_manutencao": []
+  },
+  {
+    "_id": 8,
+    "numero": "402",
+    "nome_tematico": "Studio Robô Mordomo",
+    "tipo": "studio",
+    "andar": 4,
+    "capacidade": 2,
+    "preco_diaria": 320,
+    "status": "manutencao",
+    "vista": "cidade",
+    "caracteristicas": [
+      "vista_cidade",
+      "robo_mordomo",
+      "tv_retro"
+    ],
+    "dimensoes": {
+      "area_m2": 30,
+      "camas": [
+        {
+          "tipo": "casal",
+          "quantidade": 1
+        }
+      ]
+    },
+    "historico_manutencao": [
+      {
+        "data": {
+          "$date": "2026-09-28T10:00:00Z"
+        },
+        "descricao": "Revisão dos circuitos do robô mordomo"
+      }
+    ]
+  },
+  {
+    "_id": 9,
+    "numero": "501",
+    "nome_tematico": "Suíte Panorama Atômico",
+    "tipo": "luxo",
+    "andar": 5,
+    "capacidade": 3,
+    "preco_diaria": 520,
+    "status": "disponivel",
+    "vista": "panoramica",
+    "caracteristicas": [
+      "vista_panoramica",
+      "banheira",
+      "luxo"
+    ],
+    "dimensoes": {
+      "area_m2": 44,
+      "camas": [
+        {
+          "tipo": "casal",
+          "quantidade": 1
+        },
+        {
+          "tipo": "solteiro",
+          "quantidade": 1
+        }
+      ]
+    },
+    "historico_manutencao": []
+  },
+  {
+    "_id": 10,
+    "numero": "502",
+    "nome_tematico": "Cápsula Solo Saturno",
+    "tipo": "capsula",
+    "andar": 5,
+    "capacidade": 1,
+    "preco_diaria": 140,
+    "status": "disponivel",
+    "vista": "cidade",
+    "caracteristicas": [
+      "vista_cidade",
+      "tv_retro"
+    ],
+    "dimensoes": {
+      "area_m2": 9,
+      "camas": [
+        {
+          "tipo": "solteiro",
+          "quantidade": 1
+        }
+      ]
+    },
+    "historico_manutencao": []
+  }
+]

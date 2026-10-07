@@ -1,0 +1,1524 @@
+[
+  {
+    "_id": 1,
+    "reserva_id": 1,
+    "hospede_id": 1,
+    "quarto_id": 2,
+    "funcionario_checkin_id": 4,
+    "funcionario_checkout_id": 1,
+    "checkin_real": {
+      "$date": "2026-01-06T15:05:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-01-09T10:50:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 4,
+        "nome": "Transfer de limusine",
+        "data_consumo": {
+          "$date": "2026-01-07T08:30:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 120,
+        "valor_total": 240
+      },
+      {
+        "servico_id": 5,
+        "nome": "Sala de Pinball e Jukebox",
+        "data_consumo": {
+          "$date": "2026-01-08T15:20:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 60,
+        "valor_total": 180
+      }
+    ],
+    "totais": {
+      "diarias": 570,
+      "servicos": 420,
+      "geral": 990
+    }
+  },
+  {
+    "_id": 2,
+    "reserva_id": 2,
+    "hospede_id": 2,
+    "quarto_id": 3,
+    "funcionario_checkin_id": 3,
+    "funcionario_checkout_id": 2,
+    "checkin_real": {
+      "$date": "2026-01-23T15:50:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-01-25T11:35:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 7,
+        "nome": "Coquetel no Bar Órbita",
+        "data_consumo": {
+          "$date": "2026-01-23T16:10:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 55,
+        "valor_total": 55
+      },
+      {
+        "servico_id": 2,
+        "nome": "Lavanderia a vapor",
+        "data_consumo": {
+          "$date": "2026-01-23T18:30:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 80,
+        "valor_total": 80
+      },
+      {
+        "servico_id": 7,
+        "nome": "Coquetel no Bar Órbita",
+        "data_consumo": {
+          "$date": "2026-01-24T08:10:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 55,
+        "valor_total": 55
+      },
+      {
+        "servico_id": 7,
+        "nome": "Coquetel no Bar Órbita",
+        "data_consumo": {
+          "$date": "2026-01-24T16:50:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 55,
+        "valor_total": 55
+      }
+    ],
+    "totais": {
+      "diarias": 840,
+      "servicos": 245,
+      "geral": 1085
+    }
+  },
+  {
+    "_id": 3,
+    "reserva_id": 3,
+    "hospede_id": 3,
+    "quarto_id": 4,
+    "funcionario_checkin_id": 1,
+    "funcionario_checkout_id": 1,
+    "checkin_real": {
+      "$date": "2026-02-09T16:20:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-02-13T10:50:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 3,
+        "nome": "Minibar Atômico",
+        "data_consumo": {
+          "$date": "2026-02-09T12:30:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 25,
+        "valor_total": 75
+      },
+      {
+        "servico_id": 6,
+        "nome": "Cinema Drive-in no Terraço",
+        "data_consumo": {
+          "$date": "2026-02-10T18:20:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 70,
+        "valor_total": 140
+      },
+      {
+        "servico_id": 1,
+        "nome": "Café da manhã no Diner Espacial",
+        "data_consumo": {
+          "$date": "2026-02-12T20:00:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 45,
+        "valor_total": 135
+      }
+    ],
+    "totais": {
+      "diarias": 1800,
+      "servicos": 350,
+      "geral": 2150
+    }
+  },
+  {
+    "_id": 4,
+    "reserva_id": 4,
+    "hospede_id": 1,
+    "quarto_id": 5,
+    "funcionario_checkin_id": 2,
+    "funcionario_checkout_id": 2,
+    "checkin_real": {
+      "$date": "2026-02-13T15:05:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-02-15T11:20:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 4,
+        "nome": "Transfer de limusine",
+        "data_consumo": {
+          "$date": "2026-02-13T16:50:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 120,
+        "valor_total": 120
+      },
+      {
+        "servico_id": 7,
+        "nome": "Coquetel no Bar Órbita",
+        "data_consumo": {
+          "$date": "2026-02-13T17:30:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 55,
+        "valor_total": 55
+      }
+    ],
+    "totais": {
+      "diarias": 1560,
+      "servicos": 175,
+      "geral": 1735
+    }
+  },
+  {
+    "_id": 5,
+    "reserva_id": 6,
+    "hospede_id": 5,
+    "quarto_id": 3,
+    "funcionario_checkin_id": 1,
+    "funcionario_checkout_id": 3,
+    "checkin_real": {
+      "$date": "2026-03-04T16:20:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-03-09T11:05:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 1,
+        "nome": "Café da manhã no Diner Espacial",
+        "data_consumo": {
+          "$date": "2026-03-05T11:10:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 45,
+        "valor_total": 45
+      },
+      {
+        "servico_id": 6,
+        "nome": "Cinema Drive-in no Terraço",
+        "data_consumo": {
+          "$date": "2026-03-05T19:50:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 70,
+        "valor_total": 70
+      }
+    ],
+    "totais": {
+      "diarias": 2100,
+      "servicos": 115,
+      "geral": 2215
+    }
+  },
+  {
+    "_id": 6,
+    "reserva_id": 7,
+    "hospede_id": 6,
+    "quarto_id": 9,
+    "funcionario_checkin_id": 4,
+    "funcionario_checkout_id": 2,
+    "checkin_real": {
+      "$date": "2026-03-14T15:50:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-03-16T10:35:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 1,
+        "nome": "Café da manhã no Diner Espacial",
+        "data_consumo": {
+          "$date": "2026-03-14T13:00:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 45,
+        "valor_total": 90
+      },
+      {
+        "servico_id": 7,
+        "nome": "Coquetel no Bar Órbita",
+        "data_consumo": {
+          "$date": "2026-03-14T21:30:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 55,
+        "valor_total": 165
+      },
+      {
+        "servico_id": 1,
+        "nome": "Café da manhã no Diner Espacial",
+        "data_consumo": {
+          "$date": "2026-03-15T08:30:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 45,
+        "valor_total": 45
+      },
+      {
+        "servico_id": 7,
+        "nome": "Coquetel no Bar Órbita",
+        "data_consumo": {
+          "$date": "2026-03-15T09:40:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 55,
+        "valor_total": 165
+      },
+      {
+        "servico_id": 4,
+        "nome": "Transfer de limusine",
+        "data_consumo": {
+          "$date": "2026-03-15T17:10:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 120,
+        "valor_total": 120
+      }
+    ],
+    "totais": {
+      "diarias": 1040,
+      "servicos": 585,
+      "geral": 1625
+    }
+  },
+  {
+    "_id": 7,
+    "reserva_id": 8,
+    "hospede_id": 2,
+    "quarto_id": 1,
+    "funcionario_checkin_id": 1,
+    "funcionario_checkout_id": 1,
+    "checkin_real": {
+      "$date": "2026-03-24T15:50:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-03-27T11:20:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 1,
+        "nome": "Café da manhã no Diner Espacial",
+        "data_consumo": {
+          "$date": "2026-03-24T15:30:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 45,
+        "valor_total": 90
+      },
+      {
+        "servico_id": 5,
+        "nome": "Sala de Pinball e Jukebox",
+        "data_consumo": {
+          "$date": "2026-03-25T15:10:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 60,
+        "valor_total": 120
+      },
+      {
+        "servico_id": 5,
+        "nome": "Sala de Pinball e Jukebox",
+        "data_consumo": {
+          "$date": "2026-03-25T15:40:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 60,
+        "valor_total": 180
+      },
+      {
+        "servico_id": 8,
+        "nome": "Tour pelo Observatório",
+        "data_consumo": {
+          "$date": "2026-03-25T17:20:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 180,
+        "valor_total": 360
+      }
+    ],
+    "totais": {
+      "diarias": 540,
+      "servicos": 750,
+      "geral": 1290
+    }
+  },
+  {
+    "_id": 8,
+    "reserva_id": 9,
+    "hospede_id": 7,
+    "quarto_id": 2,
+    "funcionario_checkin_id": 2,
+    "funcionario_checkout_id": 3,
+    "checkin_real": {
+      "$date": "2026-04-03T15:35:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-04-06T10:20:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 3,
+        "nome": "Minibar Atômico",
+        "data_consumo": {
+          "$date": "2026-04-05T10:00:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 25,
+        "valor_total": 25
+      },
+      {
+        "servico_id": 4,
+        "nome": "Transfer de limusine",
+        "data_consumo": {
+          "$date": "2026-04-05T12:40:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 120,
+        "valor_total": 120
+      },
+      {
+        "servico_id": 7,
+        "nome": "Coquetel no Bar Órbita",
+        "data_consumo": {
+          "$date": "2026-04-05T21:40:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 55,
+        "valor_total": 165
+      }
+    ],
+    "totais": {
+      "diarias": 570,
+      "servicos": 310,
+      "geral": 880
+    }
+  },
+  {
+    "_id": 9,
+    "reserva_id": 10,
+    "hospede_id": 8,
+    "quarto_id": 2,
+    "funcionario_checkin_id": 3,
+    "funcionario_checkout_id": 1,
+    "checkin_real": {
+      "$date": "2026-04-13T14:50:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-04-15T11:35:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 8,
+        "nome": "Tour pelo Observatório",
+        "data_consumo": {
+          "$date": "2026-04-13T09:00:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 180,
+        "valor_total": 360
+      },
+      {
+        "servico_id": 8,
+        "nome": "Tour pelo Observatório",
+        "data_consumo": {
+          "$date": "2026-04-13T09:20:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 180,
+        "valor_total": 180
+      },
+      {
+        "servico_id": 6,
+        "nome": "Cinema Drive-in no Terraço",
+        "data_consumo": {
+          "$date": "2026-04-14T11:30:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 70,
+        "valor_total": 70
+      },
+      {
+        "servico_id": 8,
+        "nome": "Tour pelo Observatório",
+        "data_consumo": {
+          "$date": "2026-04-14T21:10:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 180,
+        "valor_total": 180
+      },
+      {
+        "servico_id": 6,
+        "nome": "Cinema Drive-in no Terraço",
+        "data_consumo": {
+          "$date": "2026-04-14T21:50:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 70,
+        "valor_total": 210
+      }
+    ],
+    "totais": {
+      "diarias": 380,
+      "servicos": 1000,
+      "geral": 1380
+    }
+  },
+  {
+    "_id": 10,
+    "reserva_id": 11,
+    "hospede_id": 1,
+    "quarto_id": 4,
+    "funcionario_checkin_id": 2,
+    "funcionario_checkout_id": 2,
+    "checkin_real": {
+      "$date": "2026-04-23T16:50:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-04-27T10:35:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 2,
+        "nome": "Lavanderia a vapor",
+        "data_consumo": {
+          "$date": "2026-04-23T10:10:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 80,
+        "valor_total": 240
+      },
+      {
+        "servico_id": 4,
+        "nome": "Transfer de limusine",
+        "data_consumo": {
+          "$date": "2026-04-25T10:30:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 120,
+        "valor_total": 360
+      }
+    ],
+    "totais": {
+      "diarias": 1800,
+      "servicos": 600,
+      "geral": 2400
+    }
+  },
+  {
+    "_id": 11,
+    "reserva_id": 12,
+    "hospede_id": 9,
+    "quarto_id": 3,
+    "funcionario_checkin_id": 2,
+    "funcionario_checkout_id": 1,
+    "checkin_real": {
+      "$date": "2026-05-10T14:05:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-05-13T11:20:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 1,
+        "nome": "Café da manhã no Diner Espacial",
+        "data_consumo": {
+          "$date": "2026-05-10T08:30:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 45,
+        "valor_total": 135
+      },
+      {
+        "servico_id": 7,
+        "nome": "Coquetel no Bar Órbita",
+        "data_consumo": {
+          "$date": "2026-05-10T13:30:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 55,
+        "valor_total": 165
+      },
+      {
+        "servico_id": 5,
+        "nome": "Sala de Pinball e Jukebox",
+        "data_consumo": {
+          "$date": "2026-05-11T08:40:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 60,
+        "valor_total": 60
+      },
+      {
+        "servico_id": 8,
+        "nome": "Tour pelo Observatório",
+        "data_consumo": {
+          "$date": "2026-05-11T21:00:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 180,
+        "valor_total": 180
+      },
+      {
+        "servico_id": 2,
+        "nome": "Lavanderia a vapor",
+        "data_consumo": {
+          "$date": "2026-05-12T10:10:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 80,
+        "valor_total": 240
+      }
+    ],
+    "totais": {
+      "diarias": 1260,
+      "servicos": 780,
+      "geral": 2040
+    }
+  },
+  {
+    "_id": 12,
+    "reserva_id": 13,
+    "hospede_id": 3,
+    "quarto_id": 5,
+    "funcionario_checkin_id": 3,
+    "funcionario_checkout_id": 4,
+    "checkin_real": {
+      "$date": "2026-05-13T15:50:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-05-15T11:05:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 1,
+        "nome": "Café da manhã no Diner Espacial",
+        "data_consumo": {
+          "$date": "2026-05-13T09:30:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 45,
+        "valor_total": 135
+      },
+      {
+        "servico_id": 2,
+        "nome": "Lavanderia a vapor",
+        "data_consumo": {
+          "$date": "2026-05-13T12:10:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 80,
+        "valor_total": 80
+      },
+      {
+        "servico_id": 7,
+        "nome": "Coquetel no Bar Órbita",
+        "data_consumo": {
+          "$date": "2026-05-13T15:20:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 55,
+        "valor_total": 165
+      },
+      {
+        "servico_id": 3,
+        "nome": "Minibar Atômico",
+        "data_consumo": {
+          "$date": "2026-05-13T19:10:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 25,
+        "valor_total": 50
+      },
+      {
+        "servico_id": 8,
+        "nome": "Tour pelo Observatório",
+        "data_consumo": {
+          "$date": "2026-05-14T15:20:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 180,
+        "valor_total": 180
+      }
+    ],
+    "totais": {
+      "diarias": 1560,
+      "servicos": 610,
+      "geral": 2170
+    }
+  },
+  {
+    "_id": 13,
+    "reserva_id": 14,
+    "hospede_id": 10,
+    "quarto_id": 7,
+    "funcionario_checkin_id": 2,
+    "funcionario_checkout_id": 4,
+    "checkin_real": {
+      "$date": "2026-05-28T16:50:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-06-03T10:20:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 6,
+        "nome": "Cinema Drive-in no Terraço",
+        "data_consumo": {
+          "$date": "2026-05-31T08:20:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 70,
+        "valor_total": 140
+      },
+      {
+        "servico_id": 5,
+        "nome": "Sala de Pinball e Jukebox",
+        "data_consumo": {
+          "$date": "2026-05-31T16:30:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 60,
+        "valor_total": 120
+      }
+    ],
+    "totais": {
+      "diarias": 6600,
+      "servicos": 260,
+      "geral": 6860
+    }
+  },
+  {
+    "_id": 14,
+    "reserva_id": 15,
+    "hospede_id": 11,
+    "quarto_id": 9,
+    "funcionario_checkin_id": 3,
+    "funcionario_checkout_id": 3,
+    "checkin_real": {
+      "$date": "2026-06-02T14:50:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-06-05T10:50:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 2,
+        "nome": "Lavanderia a vapor",
+        "data_consumo": {
+          "$date": "2026-06-03T19:20:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 80,
+        "valor_total": 160
+      },
+      {
+        "servico_id": 8,
+        "nome": "Tour pelo Observatório",
+        "data_consumo": {
+          "$date": "2026-06-04T10:30:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 180,
+        "valor_total": 360
+      },
+      {
+        "servico_id": 3,
+        "nome": "Minibar Atômico",
+        "data_consumo": {
+          "$date": "2026-06-04T16:20:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 25,
+        "valor_total": 75
+      },
+      {
+        "servico_id": 7,
+        "nome": "Coquetel no Bar Órbita",
+        "data_consumo": {
+          "$date": "2026-06-04T21:10:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 55,
+        "valor_total": 55
+      }
+    ],
+    "totais": {
+      "diarias": 1560,
+      "servicos": 650,
+      "geral": 2210
+    }
+  },
+  {
+    "_id": 15,
+    "reserva_id": 16,
+    "hospede_id": 5,
+    "quarto_id": 6,
+    "funcionario_checkin_id": 3,
+    "funcionario_checkout_id": 3,
+    "checkin_real": {
+      "$date": "2026-06-12T16:20:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-06-16T11:20:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 8,
+        "nome": "Tour pelo Observatório",
+        "data_consumo": {
+          "$date": "2026-06-12T22:00:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 180,
+        "valor_total": 360
+      },
+      {
+        "servico_id": 5,
+        "nome": "Sala de Pinball e Jukebox",
+        "data_consumo": {
+          "$date": "2026-06-13T14:20:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 60,
+        "valor_total": 60
+      },
+      {
+        "servico_id": 8,
+        "nome": "Tour pelo Observatório",
+        "data_consumo": {
+          "$date": "2026-06-14T14:40:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 180,
+        "valor_total": 180
+      },
+      {
+        "servico_id": 7,
+        "nome": "Coquetel no Bar Órbita",
+        "data_consumo": {
+          "$date": "2026-06-14T20:20:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 55,
+        "valor_total": 55
+      },
+      {
+        "servico_id": 5,
+        "nome": "Sala de Pinball e Jukebox",
+        "data_consumo": {
+          "$date": "2026-06-15T19:30:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 60,
+        "valor_total": 120
+      }
+    ],
+    "totais": {
+      "diarias": 2240,
+      "servicos": 775,
+      "geral": 3015
+    }
+  },
+  {
+    "_id": 16,
+    "reserva_id": 17,
+    "hospede_id": 12,
+    "quarto_id": 10,
+    "funcionario_checkin_id": 1,
+    "funcionario_checkout_id": 4,
+    "checkin_real": {
+      "$date": "2026-06-22T15:35:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-06-24T10:50:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 3,
+        "nome": "Minibar Atômico",
+        "data_consumo": {
+          "$date": "2026-06-22T22:20:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 25,
+        "valor_total": 50
+      },
+      {
+        "servico_id": 6,
+        "nome": "Cinema Drive-in no Terraço",
+        "data_consumo": {
+          "$date": "2026-06-23T09:10:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 70,
+        "valor_total": 210
+      }
+    ],
+    "totais": {
+      "diarias": 280,
+      "servicos": 260,
+      "geral": 540
+    }
+  },
+  {
+    "_id": 17,
+    "reserva_id": 19,
+    "hospede_id": 13,
+    "quarto_id": 4,
+    "funcionario_checkin_id": 2,
+    "funcionario_checkout_id": 2,
+    "checkin_real": {
+      "$date": "2026-07-05T15:50:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-07-10T11:50:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 2,
+        "nome": "Lavanderia a vapor",
+        "data_consumo": {
+          "$date": "2026-07-05T20:20:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 80,
+        "valor_total": 240
+      },
+      {
+        "servico_id": 3,
+        "nome": "Minibar Atômico",
+        "data_consumo": {
+          "$date": "2026-07-09T20:50:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 25,
+        "valor_total": 75
+      }
+    ],
+    "totais": {
+      "diarias": 2250,
+      "servicos": 315,
+      "geral": 2565
+    }
+  },
+  {
+    "_id": 18,
+    "reserva_id": 20,
+    "hospede_id": 7,
+    "quarto_id": 3,
+    "funcionario_checkin_id": 2,
+    "funcionario_checkout_id": 4,
+    "checkin_real": {
+      "$date": "2026-07-08T14:05:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-07-11T11:50:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 1,
+        "nome": "Café da manhã no Diner Espacial",
+        "data_consumo": {
+          "$date": "2026-07-08T12:30:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 45,
+        "valor_total": 135
+      },
+      {
+        "servico_id": 5,
+        "nome": "Sala de Pinball e Jukebox",
+        "data_consumo": {
+          "$date": "2026-07-08T21:00:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 60,
+        "valor_total": 180
+      },
+      {
+        "servico_id": 1,
+        "nome": "Café da manhã no Diner Espacial",
+        "data_consumo": {
+          "$date": "2026-07-09T20:40:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 45,
+        "valor_total": 90
+      }
+    ],
+    "totais": {
+      "diarias": 1260,
+      "servicos": 405,
+      "geral": 1665
+    }
+  },
+  {
+    "_id": 19,
+    "reserva_id": 21,
+    "hospede_id": 14,
+    "quarto_id": 6,
+    "funcionario_checkin_id": 1,
+    "funcionario_checkout_id": 2,
+    "checkin_real": {
+      "$date": "2026-07-18T16:20:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-07-22T10:35:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 5,
+        "nome": "Sala de Pinball e Jukebox",
+        "data_consumo": {
+          "$date": "2026-07-18T17:20:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 60,
+        "valor_total": 60
+      },
+      {
+        "servico_id": 1,
+        "nome": "Café da manhã no Diner Espacial",
+        "data_consumo": {
+          "$date": "2026-07-19T20:10:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 45,
+        "valor_total": 135
+      },
+      {
+        "servico_id": 4,
+        "nome": "Transfer de limusine",
+        "data_consumo": {
+          "$date": "2026-07-19T22:10:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 120,
+        "valor_total": 360
+      },
+      {
+        "servico_id": 4,
+        "nome": "Transfer de limusine",
+        "data_consumo": {
+          "$date": "2026-07-21T13:40:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 120,
+        "valor_total": 360
+      },
+      {
+        "servico_id": 8,
+        "nome": "Tour pelo Observatório",
+        "data_consumo": {
+          "$date": "2026-07-21T22:40:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 180,
+        "valor_total": 540
+      }
+    ],
+    "totais": {
+      "diarias": 2240,
+      "servicos": 1455,
+      "geral": 3695
+    }
+  },
+  {
+    "_id": 20,
+    "reserva_id": 22,
+    "hospede_id": 1,
+    "quarto_id": 7,
+    "funcionario_checkin_id": 2,
+    "funcionario_checkout_id": 2,
+    "checkin_real": {
+      "$date": "2026-07-21T16:35:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-07-23T10:50:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 1,
+        "nome": "Café da manhã no Diner Espacial",
+        "data_consumo": {
+          "$date": "2026-07-22T11:40:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 45,
+        "valor_total": 135
+      },
+      {
+        "servico_id": 2,
+        "nome": "Lavanderia a vapor",
+        "data_consumo": {
+          "$date": "2026-07-22T21:10:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 80,
+        "valor_total": 240
+      }
+    ],
+    "totais": {
+      "diarias": 2200,
+      "servicos": 375,
+      "geral": 2575
+    }
+  },
+  {
+    "_id": 21,
+    "reserva_id": 23,
+    "hospede_id": 6,
+    "quarto_id": 9,
+    "funcionario_checkin_id": 1,
+    "funcionario_checkout_id": 2,
+    "checkin_real": {
+      "$date": "2026-08-07T15:50:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-08-10T10:05:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 7,
+        "nome": "Coquetel no Bar Órbita",
+        "data_consumo": {
+          "$date": "2026-08-08T15:20:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 55,
+        "valor_total": 110
+      },
+      {
+        "servico_id": 6,
+        "nome": "Cinema Drive-in no Terraço",
+        "data_consumo": {
+          "$date": "2026-08-08T22:30:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 70,
+        "valor_total": 70
+      }
+    ],
+    "totais": {
+      "diarias": 1560,
+      "servicos": 180,
+      "geral": 1740
+    }
+  },
+  {
+    "_id": 22,
+    "reserva_id": 24,
+    "hospede_id": 9,
+    "quarto_id": 1,
+    "funcionario_checkin_id": 1,
+    "funcionario_checkout_id": 4,
+    "checkin_real": {
+      "$date": "2026-08-17T16:35:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-08-21T10:05:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 6,
+        "nome": "Cinema Drive-in no Terraço",
+        "data_consumo": {
+          "$date": "2026-08-19T11:30:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 70,
+        "valor_total": 70
+      },
+      {
+        "servico_id": 6,
+        "nome": "Cinema Drive-in no Terraço",
+        "data_consumo": {
+          "$date": "2026-08-20T11:50:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 70,
+        "valor_total": 210
+      }
+    ],
+    "totais": {
+      "diarias": 720,
+      "servicos": 280,
+      "geral": 1000
+    }
+  },
+  {
+    "_id": 23,
+    "reserva_id": 25,
+    "hospede_id": 12,
+    "quarto_id": 9,
+    "funcionario_checkin_id": 3,
+    "funcionario_checkout_id": 1,
+    "checkin_real": {
+      "$date": "2026-08-20T14:20:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-08-22T10:35:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 5,
+        "nome": "Sala de Pinball e Jukebox",
+        "data_consumo": {
+          "$date": "2026-08-20T18:50:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 60,
+        "valor_total": 60
+      },
+      {
+        "servico_id": 2,
+        "nome": "Lavanderia a vapor",
+        "data_consumo": {
+          "$date": "2026-08-21T08:30:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 80,
+        "valor_total": 80
+      },
+      {
+        "servico_id": 6,
+        "nome": "Cinema Drive-in no Terraço",
+        "data_consumo": {
+          "$date": "2026-08-21T13:40:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 70,
+        "valor_total": 70
+      },
+      {
+        "servico_id": 8,
+        "nome": "Tour pelo Observatório",
+        "data_consumo": {
+          "$date": "2026-08-21T14:10:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 180,
+        "valor_total": 360
+      }
+    ],
+    "totais": {
+      "diarias": 1040,
+      "servicos": 570,
+      "geral": 1610
+    }
+  },
+  {
+    "_id": 24,
+    "reserva_id": 26,
+    "hospede_id": 4,
+    "quarto_id": 3,
+    "funcionario_checkin_id": 3,
+    "funcionario_checkout_id": 2,
+    "checkin_real": {
+      "$date": "2026-09-06T15:20:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-09-09T10:05:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 3,
+        "nome": "Minibar Atômico",
+        "data_consumo": {
+          "$date": "2026-09-06T18:00:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 25,
+        "valor_total": 25
+      },
+      {
+        "servico_id": 7,
+        "nome": "Coquetel no Bar Órbita",
+        "data_consumo": {
+          "$date": "2026-09-08T10:10:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 55,
+        "valor_total": 165
+      },
+      {
+        "servico_id": 6,
+        "nome": "Cinema Drive-in no Terraço",
+        "data_consumo": {
+          "$date": "2026-09-08T11:20:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 70,
+        "valor_total": 70
+      },
+      {
+        "servico_id": 3,
+        "nome": "Minibar Atômico",
+        "data_consumo": {
+          "$date": "2026-09-08T17:50:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 25,
+        "valor_total": 25
+      }
+    ],
+    "totais": {
+      "diarias": 1260,
+      "servicos": 285,
+      "geral": 1545
+    }
+  },
+  {
+    "_id": 25,
+    "reserva_id": 27,
+    "hospede_id": 8,
+    "quarto_id": 6,
+    "funcionario_checkin_id": 3,
+    "funcionario_checkout_id": 3,
+    "checkin_real": {
+      "$date": "2026-09-09T16:50:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-09-14T10:05:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 6,
+        "nome": "Cinema Drive-in no Terraço",
+        "data_consumo": {
+          "$date": "2026-09-09T10:50:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 70,
+        "valor_total": 210
+      },
+      {
+        "servico_id": 8,
+        "nome": "Tour pelo Observatório",
+        "data_consumo": {
+          "$date": "2026-09-10T10:00:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 180,
+        "valor_total": 540
+      },
+      {
+        "servico_id": 3,
+        "nome": "Minibar Atômico",
+        "data_consumo": {
+          "$date": "2026-09-10T19:40:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 25,
+        "valor_total": 25
+      },
+      {
+        "servico_id": 6,
+        "nome": "Cinema Drive-in no Terraço",
+        "data_consumo": {
+          "$date": "2026-09-12T10:30:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 70,
+        "valor_total": 140
+      },
+      {
+        "servico_id": 1,
+        "nome": "Café da manhã no Diner Espacial",
+        "data_consumo": {
+          "$date": "2026-09-12T17:20:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 45,
+        "valor_total": 45
+      }
+    ],
+    "totais": {
+      "diarias": 2800,
+      "servicos": 960,
+      "geral": 3760
+    }
+  },
+  {
+    "_id": 26,
+    "reserva_id": 28,
+    "hospede_id": 3,
+    "quarto_id": 5,
+    "funcionario_checkin_id": 3,
+    "funcionario_checkout_id": 3,
+    "checkin_real": {
+      "$date": "2026-09-24T14:05:00Z"
+    },
+    "checkout_real": {
+      "$date": "2026-09-27T11:35:00Z"
+    },
+    "status": "encerrada",
+    "servicos_consumidos": [
+      {
+        "servico_id": 3,
+        "nome": "Minibar Atômico",
+        "data_consumo": {
+          "$date": "2026-09-24T15:10:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 25,
+        "valor_total": 75
+      },
+      {
+        "servico_id": 6,
+        "nome": "Cinema Drive-in no Terraço",
+        "data_consumo": {
+          "$date": "2026-09-24T21:50:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 70,
+        "valor_total": 70
+      },
+      {
+        "servico_id": 3,
+        "nome": "Minibar Atômico",
+        "data_consumo": {
+          "$date": "2026-09-25T14:40:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 25,
+        "valor_total": 25
+      },
+      {
+        "servico_id": 1,
+        "nome": "Café da manhã no Diner Espacial",
+        "data_consumo": {
+          "$date": "2026-09-26T11:40:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 45,
+        "valor_total": 135
+      }
+    ],
+    "totais": {
+      "diarias": 2340,
+      "servicos": 305,
+      "geral": 2645
+    }
+  },
+  {
+    "_id": 27,
+    "reserva_id": 29,
+    "hospede_id": 11,
+    "quarto_id": 6,
+    "funcionario_checkin_id": 3,
+    "funcionario_checkout_id": null,
+    "checkin_real": {
+      "$date": "2026-10-04T15:35:00Z"
+    },
+    "checkout_real": null,
+    "status": "em_andamento",
+    "servicos_consumidos": [
+      {
+        "servico_id": 5,
+        "nome": "Sala de Pinball e Jukebox",
+        "data_consumo": {
+          "$date": "2026-10-04T16:40:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 60,
+        "valor_total": 60
+      },
+      {
+        "servico_id": 4,
+        "nome": "Transfer de limusine",
+        "data_consumo": {
+          "$date": "2026-10-04T20:10:00Z"
+        },
+        "quantidade": 1,
+        "valor_unitario": 120,
+        "valor_total": 120
+      },
+      {
+        "servico_id": 7,
+        "nome": "Coquetel no Bar Órbita",
+        "data_consumo": {
+          "$date": "2026-10-04T20:10:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 55,
+        "valor_total": 110
+      },
+      {
+        "servico_id": 4,
+        "nome": "Transfer de limusine",
+        "data_consumo": {
+          "$date": "2026-10-05T11:20:00Z"
+        },
+        "quantidade": 2,
+        "valor_unitario": 120,
+        "valor_total": 240
+      },
+      {
+        "servico_id": 2,
+        "nome": "Lavanderia a vapor",
+        "data_consumo": {
+          "$date": "2026-10-05T17:30:00Z"
+        },
+        "quantidade": 3,
+        "valor_unitario": 80,
+        "valor_total": 240
+      }
+    ],
+    "totais": {
+      "diarias": 2800,
+      "servicos": 770,
+      "geral": 3570
+    }
+  }
+]

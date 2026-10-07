@@ -1,0 +1,91 @@
+[
+  {
+    "_id": 1,
+    "nome": "Eleanor Pike",
+    "cargo": "Recepcionista",
+    "departamento": "Recepção",
+    "contato": {
+      "email": "eleanor.pike@hotelnebula.com",
+      "telefone": "+1 212 555-2001"
+    },
+    "turnos": [
+      "manha",
+      "tarde"
+    ],
+    "ativo": true
+  },
+  {
+    "_id": 2,
+    "nome": "Gus Marlowe",
+    "cargo": "Recepcionista",
+    "departamento": "Recepção",
+    "contato": {
+      "email": "gus.marlowe@hotelnebula.com",
+      "telefone": "+1 212 555-2002"
+    },
+    "turnos": [
+      "tarde",
+      "noite"
+    ],
+    "ativo": true
+  },
+  {
+    "_id": 3,
+    "nome": "Hortênsia Vale",
+    "cargo": "Supervisora",
+    "departamento": "Operações",
+    "contato": {
+      "email": "hortensia.vale@hotelnebula.com",
+      "telefone": "+1 212 555-2003"
+    },
+    "turnos": [
+      "manha"
+    ],
+    "ativo": true
+  },
+  {
+    "_id": 4,
+    "nome": "Teddy Orbit",
+    "cargo": "Concierge",
+    "departamento": "Hospitalidade",
+    "contato": {
+      "email": "teddy.orbit@hotelnebula.com",
+      "telefone": "+1 212 555-2004"
+    },
+    "turnos": [
+      "manha",
+      "tarde",
+      "noite"
+    ],
+    "ativo": true
+  },
+  {
+    "_id": 5,
+    "nome": "Vivian Atlas",
+    "cargo": "Coordenadora de Eventos",
+    "departamento": "Eventos",
+    "contato": {
+      "email": "vivian.atlas@hotelnebula.com",
+      "telefone": "+1 212 555-2005"
+    },
+    "turnos": [
+      "tarde"
+    ],
+    "ativo": true
+  },
+  {
+    "_id": 6,
+    "nome": "Rex Kernel",
+    "cargo": "Técnico de Robótica",
+    "departamento": "Tecnologia",
+    "contato": {
+      "email": "rex.kernel@hotelnebula.com",
+      "telefone": "+1 212 555-2006"
+    },
+    "turnos": [
+      "manha",
+      "noite"
+    ],
+    "ativo": false
+  }
+]

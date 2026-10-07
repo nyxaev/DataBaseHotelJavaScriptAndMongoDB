@@ -1,0 +1,911 @@
+[
+  {
+    "_id": 1,
+    "hospede_id": 1,
+    "quarto_id": 2,
+    "data_reserva": {
+      "$date": "2025-12-17T11:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-01-06T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-01-09T11:00:00Z"
+      },
+      "noites": 3
+    },
+    "status": "concluida",
+    "canal": "site_proprio",
+    "valor_previsto": 570,
+    "acompanhantes": [
+      {
+        "nome": "Tommy",
+        "parentesco": "filho"
+      }
+    ],
+    "pedidos_especiais": []
+  },
+  {
+    "_id": 2,
+    "hospede_id": 2,
+    "quarto_id": 3,
+    "data_reserva": {
+      "$date": "2025-12-20T09:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-01-23T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-01-25T11:00:00Z"
+      },
+      "noites": 2
+    },
+    "status": "concluida",
+    "canal": "telefone",
+    "valor_previsto": 840,
+    "acompanhantes": [],
+    "pedidos_especiais": [
+      "late_checkout",
+      "berco"
+    ]
+  },
+  {
+    "_id": 3,
+    "hospede_id": 3,
+    "quarto_id": 4,
+    "data_reserva": {
+      "$date": "2026-01-22T10:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-02-09T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-02-13T11:00:00Z"
+      },
+      "noites": 4
+    },
+    "status": "concluida",
+    "canal": "agencia_online",
+    "valor_previsto": 1800,
+    "acompanhantes": [
+      {
+        "nome": "Clifford",
+        "parentesco": "amigo"
+      }
+    ],
+    "pedidos_especiais": []
+  },
+  {
+    "_id": 4,
+    "hospede_id": 1,
+    "quarto_id": 5,
+    "data_reserva": {
+      "$date": "2026-01-10T09:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-02-13T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-02-15T11:00:00Z"
+      },
+      "noites": 2
+    },
+    "status": "concluida",
+    "canal": "site_proprio",
+    "valor_previsto": 1560,
+    "acompanhantes": [
+      {
+        "nome": "Patricia",
+        "parentesco": "amiga"
+      }
+    ],
+    "pedidos_especiais": []
+  },
+  {
+    "_id": 5,
+    "hospede_id": 4,
+    "quarto_id": 6,
+    "data_reserva": {
+      "$date": "2026-01-30T09:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-02-20T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-02-23T11:00:00Z"
+      },
+      "noites": 3
+    },
+    "status": "cancelada",
+    "canal": "app_mobile",
+    "valor_previsto": 1680,
+    "acompanhantes": [],
+    "pedidos_especiais": [
+      "late_checkout"
+    ]
+  },
+  {
+    "_id": 6,
+    "hospede_id": 5,
+    "quarto_id": 3,
+    "data_reserva": {
+      "$date": "2026-02-15T10:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-03-04T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-03-09T11:00:00Z"
+      },
+      "noites": 5
+    },
+    "status": "concluida",
+    "canal": "agencia_online",
+    "valor_previsto": 2100,
+    "acompanhantes": [
+      {
+        "nome": "Nancy",
+        "parentesco": "conjuge"
+      },
+      {
+        "nome": "Billy",
+        "parentesco": "filho"
+      }
+    ],
+    "pedidos_especiais": [
+      "jornal_matinal",
+      "berco"
+    ]
+  },
+  {
+    "_id": 7,
+    "hospede_id": 6,
+    "quarto_id": 9,
+    "data_reserva": {
+      "$date": "2026-01-26T13:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-03-14T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-03-16T11:00:00Z"
+      },
+      "noites": 2
+    },
+    "status": "concluida",
+    "canal": "site_proprio",
+    "valor_previsto": 1040,
+    "acompanhantes": [],
+    "pedidos_especiais": [
+      "flores_no_quarto",
+      "jornal_matinal"
+    ]
+  },
+  {
+    "_id": 8,
+    "hospede_id": 2,
+    "quarto_id": 1,
+    "data_reserva": {
+      "$date": "2026-01-24T10:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-03-24T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-03-27T11:00:00Z"
+      },
+      "noites": 3
+    },
+    "status": "concluida",
+    "canal": "app_mobile",
+    "valor_previsto": 540,
+    "acompanhantes": [
+      {
+        "nome": "Margaret",
+        "parentesco": "conjuge"
+      }
+    ],
+    "pedidos_especiais": [
+      "berco"
+    ]
+  },
+  {
+    "_id": 9,
+    "hospede_id": 7,
+    "quarto_id": 2,
+    "data_reserva": {
+      "$date": "2026-02-10T10:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-04-03T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-04-06T11:00:00Z"
+      },
+      "noites": 3
+    },
+    "status": "concluida",
+    "canal": "telefone",
+    "valor_previsto": 570,
+    "acompanhantes": [
+      {
+        "nome": "Tommy",
+        "parentesco": "filho"
+      }
+    ],
+    "pedidos_especiais": [
+      "berco",
+      "cama_extra"
+    ]
+  },
+  {
+    "_id": 10,
+    "hospede_id": 8,
+    "quarto_id": 2,
+    "data_reserva": {
+      "$date": "2026-03-25T09:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-04-13T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-04-15T11:00:00Z"
+      },
+      "noites": 2
+    },
+    "status": "concluida",
+    "canal": "site_proprio",
+    "valor_previsto": 380,
+    "acompanhantes": [],
+    "pedidos_especiais": [
+      "flores_no_quarto"
+    ]
+  },
+  {
+    "_id": 11,
+    "hospede_id": 1,
+    "quarto_id": 4,
+    "data_reserva": {
+      "$date": "2026-04-13T13:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-04-23T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-04-27T11:00:00Z"
+      },
+      "noites": 4
+    },
+    "status": "concluida",
+    "canal": "empresa_parceira",
+    "valor_previsto": 1800,
+    "acompanhantes": [
+      {
+        "nome": "Clifford",
+        "parentesco": "amigo"
+      }
+    ],
+    "pedidos_especiais": []
+  },
+  {
+    "_id": 12,
+    "hospede_id": 9,
+    "quarto_id": 3,
+    "data_reserva": {
+      "$date": "2026-04-10T09:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-05-10T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-05-13T11:00:00Z"
+      },
+      "noites": 3
+    },
+    "status": "concluida",
+    "canal": "agencia_online",
+    "valor_previsto": 1260,
+    "acompanhantes": [
+      {
+        "nome": "Patricia",
+        "parentesco": "amiga"
+      },
+      {
+        "nome": "Raymond",
+        "parentesco": "colega"
+      }
+    ],
+    "pedidos_especiais": [
+      "flores_no_quarto"
+    ]
+  },
+  {
+    "_id": 13,
+    "hospede_id": 3,
+    "quarto_id": 5,
+    "data_reserva": {
+      "$date": "2026-03-25T14:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-05-13T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-05-15T11:00:00Z"
+      },
+      "noites": 2
+    },
+    "status": "concluida",
+    "canal": "site_proprio",
+    "valor_previsto": 1560,
+    "acompanhantes": [],
+    "pedidos_especiais": [
+      "flores_no_quarto"
+    ]
+  },
+  {
+    "_id": 14,
+    "hospede_id": 10,
+    "quarto_id": 7,
+    "data_reserva": {
+      "$date": "2026-05-16T14:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-05-28T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-06-03T11:00:00Z"
+      },
+      "noites": 6
+    },
+    "status": "concluida",
+    "canal": "site_proprio",
+    "valor_previsto": 6600,
+    "acompanhantes": [
+      {
+        "nome": "Nancy",
+        "parentesco": "conjuge"
+      }
+    ],
+    "pedidos_especiais": [
+      "late_checkout"
+    ]
+  },
+  {
+    "_id": 15,
+    "hospede_id": 11,
+    "quarto_id": 9,
+    "data_reserva": {
+      "$date": "2026-04-22T13:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-06-02T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-06-05T11:00:00Z"
+      },
+      "noites": 3
+    },
+    "status": "concluida",
+    "canal": "app_mobile",
+    "valor_previsto": 1560,
+    "acompanhantes": [
+      {
+        "nome": "Billy",
+        "parentesco": "filho"
+      }
+    ],
+    "pedidos_especiais": []
+  },
+  {
+    "_id": 16,
+    "hospede_id": 5,
+    "quarto_id": 6,
+    "data_reserva": {
+      "$date": "2026-05-04T14:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-06-12T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-06-16T11:00:00Z"
+      },
+      "noites": 4
+    },
+    "status": "concluida",
+    "canal": "agencia_online",
+    "valor_previsto": 2240,
+    "acompanhantes": [
+      {
+        "nome": "Margaret",
+        "parentesco": "conjuge"
+      },
+      {
+        "nome": "Tommy",
+        "parentesco": "filho"
+      },
+      {
+        "nome": "Susan",
+        "parentesco": "filha"
+      }
+    ],
+    "pedidos_especiais": []
+  },
+  {
+    "_id": 17,
+    "hospede_id": 12,
+    "quarto_id": 10,
+    "data_reserva": {
+      "$date": "2026-04-27T11:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-06-22T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-06-24T11:00:00Z"
+      },
+      "noites": 2
+    },
+    "status": "concluida",
+    "canal": "telefone",
+    "valor_previsto": 280,
+    "acompanhantes": [],
+    "pedidos_especiais": [
+      "berco"
+    ]
+  },
+  {
+    "_id": 18,
+    "hospede_id": 2,
+    "quarto_id": 1,
+    "data_reserva": {
+      "$date": "2026-05-28T14:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-06-26T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-06-29T11:00:00Z"
+      },
+      "noites": 3
+    },
+    "status": "cancelada",
+    "canal": "site_proprio",
+    "valor_previsto": 540,
+    "acompanhantes": [],
+    "pedidos_especiais": [
+      "jornal_matinal",
+      "cama_extra"
+    ]
+  },
+  {
+    "_id": 19,
+    "hospede_id": 13,
+    "quarto_id": 4,
+    "data_reserva": {
+      "$date": "2026-06-23T13:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-07-05T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-07-10T11:00:00Z"
+      },
+      "noites": 5
+    },
+    "status": "concluida",
+    "canal": "site_proprio",
+    "valor_previsto": 2250,
+    "acompanhantes": [
+      {
+        "nome": "Clifford",
+        "parentesco": "amigo"
+      }
+    ],
+    "pedidos_especiais": []
+  },
+  {
+    "_id": 20,
+    "hospede_id": 7,
+    "quarto_id": 3,
+    "data_reserva": {
+      "$date": "2026-05-25T13:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-07-08T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-07-11T11:00:00Z"
+      },
+      "noites": 3
+    },
+    "status": "concluida",
+    "canal": "empresa_parceira",
+    "valor_previsto": 1260,
+    "acompanhantes": [],
+    "pedidos_especiais": [
+      "champanhe_na_chegada",
+      "cama_extra"
+    ]
+  },
+  {
+    "_id": 21,
+    "hospede_id": 14,
+    "quarto_id": 6,
+    "data_reserva": {
+      "$date": "2026-06-03T09:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-07-18T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-07-22T11:00:00Z"
+      },
+      "noites": 4
+    },
+    "status": "concluida",
+    "canal": "agencia_online",
+    "valor_previsto": 2240,
+    "acompanhantes": [
+      {
+        "nome": "Raymond",
+        "parentesco": "colega"
+      },
+      {
+        "nome": "Nancy",
+        "parentesco": "conjuge"
+      }
+    ],
+    "pedidos_especiais": []
+  },
+  {
+    "_id": 22,
+    "hospede_id": 1,
+    "quarto_id": 7,
+    "data_reserva": {
+      "$date": "2026-06-22T13:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-07-21T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-07-23T11:00:00Z"
+      },
+      "noites": 2
+    },
+    "status": "concluida",
+    "canal": "app_mobile",
+    "valor_previsto": 2200,
+    "acompanhantes": [
+      {
+        "nome": "Nancy",
+        "parentesco": "conjuge"
+      }
+    ],
+    "pedidos_especiais": []
+  },
+  {
+    "_id": 23,
+    "hospede_id": 6,
+    "quarto_id": 9,
+    "data_reserva": {
+      "$date": "2026-07-05T10:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-08-07T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-08-10T11:00:00Z"
+      },
+      "noites": 3
+    },
+    "status": "concluida",
+    "canal": "site_proprio",
+    "valor_previsto": 1560,
+    "acompanhantes": [
+      {
+        "nome": "Billy",
+        "parentesco": "filho"
+      }
+    ],
+    "pedidos_especiais": []
+  },
+  {
+    "_id": 24,
+    "hospede_id": 9,
+    "quarto_id": 1,
+    "data_reserva": {
+      "$date": "2026-06-22T11:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-08-17T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-08-21T11:00:00Z"
+      },
+      "noites": 4
+    },
+    "status": "concluida",
+    "canal": "agencia_online",
+    "valor_previsto": 720,
+    "acompanhantes": [
+      {
+        "nome": "Margaret",
+        "parentesco": "conjuge"
+      }
+    ],
+    "pedidos_especiais": []
+  },
+  {
+    "_id": 25,
+    "hospede_id": 12,
+    "quarto_id": 9,
+    "data_reserva": {
+      "$date": "2026-08-09T13:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-08-20T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-08-22T11:00:00Z"
+      },
+      "noites": 2
+    },
+    "status": "concluida",
+    "canal": "telefone",
+    "valor_previsto": 1040,
+    "acompanhantes": [],
+    "pedidos_especiais": []
+  },
+  {
+    "_id": 26,
+    "hospede_id": 4,
+    "quarto_id": 3,
+    "data_reserva": {
+      "$date": "2026-07-25T12:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-09-06T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-09-09T11:00:00Z"
+      },
+      "noites": 3
+    },
+    "status": "concluida",
+    "canal": "app_mobile",
+    "valor_previsto": 1260,
+    "acompanhantes": [
+      {
+        "nome": "Susan",
+        "parentesco": "filha"
+      }
+    ],
+    "pedidos_especiais": [
+      "jornal_matinal",
+      "andar_alto"
+    ]
+  },
+  {
+    "_id": 27,
+    "hospede_id": 8,
+    "quarto_id": 6,
+    "data_reserva": {
+      "$date": "2026-07-30T12:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-09-09T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-09-14T11:00:00Z"
+      },
+      "noites": 5
+    },
+    "status": "concluida",
+    "canal": "site_proprio",
+    "valor_previsto": 2800,
+    "acompanhantes": [
+      {
+        "nome": "Clifford",
+        "parentesco": "amigo"
+      },
+      {
+        "nome": "Patricia",
+        "parentesco": "amiga"
+      }
+    ],
+    "pedidos_especiais": [
+      "champanhe_na_chegada"
+    ]
+  },
+  {
+    "_id": 28,
+    "hospede_id": 3,
+    "quarto_id": 5,
+    "data_reserva": {
+      "$date": "2026-08-22T12:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-09-24T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-09-27T11:00:00Z"
+      },
+      "noites": 3
+    },
+    "status": "concluida",
+    "canal": "agencia_online",
+    "valor_previsto": 2340,
+    "acompanhantes": [
+      {
+        "nome": "Patricia",
+        "parentesco": "amiga"
+      }
+    ],
+    "pedidos_especiais": []
+  },
+  {
+    "_id": 29,
+    "hospede_id": 11,
+    "quarto_id": 6,
+    "data_reserva": {
+      "$date": "2026-08-29T11:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-10-04T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-10-09T11:00:00Z"
+      },
+      "noites": 5
+    },
+    "status": "em_andamento",
+    "canal": "site_proprio",
+    "valor_previsto": 2800,
+    "acompanhantes": [
+      {
+        "nome": "Raymond",
+        "parentesco": "colega"
+      }
+    ],
+    "pedidos_especiais": [
+      "andar_alto"
+    ]
+  },
+  {
+    "_id": 30,
+    "hospede_id": 13,
+    "quarto_id": 4,
+    "data_reserva": {
+      "$date": "2026-09-30T13:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-10-23T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-10-26T11:00:00Z"
+      },
+      "noites": 3
+    },
+    "status": "confirmada",
+    "canal": "app_mobile",
+    "valor_previsto": 1350,
+    "acompanhantes": [],
+    "pedidos_especiais": []
+  },
+  {
+    "_id": 31,
+    "hospede_id": 5,
+    "quarto_id": 4,
+    "data_reserva": {
+      "$date": "2026-09-23T12:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-11-08T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-11-12T11:00:00Z"
+      },
+      "noites": 4
+    },
+    "status": "confirmada",
+    "canal": "agencia_online",
+    "valor_previsto": 1800,
+    "acompanhantes": [
+      {
+        "nome": "Billy",
+        "parentesco": "filho"
+      },
+      {
+        "nome": "Margaret",
+        "parentesco": "conjuge"
+      }
+    ],
+    "pedidos_especiais": [
+      "champanhe_na_chegada",
+      "flores_no_quarto"
+    ]
+  },
+  {
+    "_id": 32,
+    "hospede_id": 14,
+    "quarto_id": 6,
+    "data_reserva": {
+      "$date": "2026-10-28T09:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-11-20T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-11-22T11:00:00Z"
+      },
+      "noites": 2
+    },
+    "status": "pendente",
+    "canal": "telefone",
+    "valor_previsto": 1120,
+    "acompanhantes": [],
+    "pedidos_especiais": []
+  },
+  {
+    "_id": 33,
+    "hospede_id": 1,
+    "quarto_id": 2,
+    "data_reserva": {
+      "$date": "2026-10-27T09:00:00Z"
+    },
+    "periodo": {
+      "checkin": {
+        "$date": "2026-12-18T15:00:00Z"
+      },
+      "checkout": {
+        "$date": "2026-12-24T11:00:00Z"
+      },
+      "noites": 6
+    },
+    "status": "confirmada",
+    "canal": "site_proprio",
+    "valor_previsto": 1140,
+    "acompanhantes": [
+      {
+        "nome": "Tommy",
+        "parentesco": "filho"
+      }
+    ],
+    "pedidos_especiais": [
+      "berco",
+      "flores_no_quarto"
+    ]
+  }
+]

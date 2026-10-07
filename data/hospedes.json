@@ -1,0 +1,457 @@
+[
+  {
+    "_id": 1,
+    "nome": "Walter Pemberton",
+    "data_nascimento": {
+      "$date": "1961-04-12T00:00:00Z"
+    },
+    "contato": {
+      "email": "walter.pemberton@email.com",
+      "telefone": "+1 212 555-1037"
+    },
+    "endereco": {
+      "cidade": "Nova York",
+      "estado": "NY",
+      "pais": "EUA"
+    },
+    "documento": {
+      "tipo": "passaporte",
+      "numero": "PP-4007919",
+      "pais_emissor": "EUA"
+    },
+    "preferencias": [
+      "andar_alto",
+      "vista_mar"
+    ],
+    "programa_fidelidade": {
+      "nivel": "Ouro",
+      "pontos": 5200
+    },
+    "ativo": true,
+    "data_cadastro": {
+      "$date": "2025-08-28T11:30:00Z"
+    }
+  },
+  {
+    "_id": 2,
+    "nome": "Doris Callahan",
+    "data_nascimento": {
+      "$date": "1958-09-30T00:00:00Z"
+    },
+    "contato": {
+      "email": "doris.callahan@email.com",
+      "telefone": "+1 212 555-1074"
+    },
+    "endereco": {
+      "cidade": "Chicago",
+      "estado": "IL",
+      "pais": "EUA"
+    },
+    "documento": {
+      "tipo": "passaporte",
+      "numero": "PP-4015838",
+      "pais_emissor": "EUA"
+    },
+    "preferencias": [
+      "quarto_silencioso"
+    ],
+    "programa_fidelidade": {
+      "nivel": "Prata",
+      "pontos": 2100
+    },
+    "ativo": true,
+    "data_cadastro": {
+      "$date": "2025-09-25T08:30:00Z"
+    }
+  },
+  {
+    "_id": 3,
+    "nome": "Harold Finch",
+    "data_nascimento": {
+      "$date": "1949-02-17T00:00:00Z"
+    },
+    "contato": {
+      "email": "harold.finch@email.com",
+      "telefone": "+1 212 555-1111"
+    },
+    "endereco": {
+      "cidade": "Boston",
+      "estado": "MA",
+      "pais": "EUA"
+    },
+    "documento": {
+      "tipo": "passaporte",
+      "numero": "PP-4023757",
+      "pais_emissor": "EUA"
+    },
+    "preferencias": [
+      "banheira",
+      "cafe_cedo"
+    ],
+    "programa_fidelidade": {
+      "nivel": "Ouro",
+      "pontos": 4300
+    },
+    "ativo": true,
+    "data_cadastro": {
+      "$date": "2025-04-10T11:00:00Z"
+    }
+  },
+  {
+    "_id": 4,
+    "nome": "Lucille Marlowe",
+    "data_nascimento": {
+      "$date": "1972-11-05T00:00:00Z"
+    },
+    "contato": {
+      "email": "lucille.marlowe@email.com",
+      "telefone": "+1 212 555-1148"
+    },
+    "endereco": {
+      "cidade": "Los Angeles",
+      "estado": "CA",
+      "pais": "EUA"
+    },
+    "documento": {
+      "tipo": "passaporte",
+      "numero": "PP-4031676",
+      "pais_emissor": "EUA"
+    },
+    "preferencias": [
+      "vista_mar"
+    ],
+    "programa_fidelidade": {
+      "nivel": "Bronze",
+      "pontos": 600
+    },
+    "ativo": true,
+    "data_cadastro": {
+      "$date": "2025-07-28T14:00:00Z"
+    }
+  },
+  {
+    "_id": 5,
+    "nome": "Frank Delacroix",
+    "data_nascimento": {
+      "$date": "1967-07-21T00:00:00Z"
+    },
+    "contato": {
+      "email": "frank.delacroix@email.com",
+      "telefone": "+1 212 555-1185"
+    },
+    "endereco": {
+      "cidade": "Nova Orleans",
+      "estado": "LA",
+      "pais": "EUA"
+    },
+    "documento": {
+      "tipo": "passaporte",
+      "numero": "PP-4039595",
+      "pais_emissor": "EUA"
+    },
+    "preferencias": [
+      "quarto_familia",
+      "berco"
+    ],
+    "programa_fidelidade": {
+      "nivel": "Prata",
+      "pontos": 2600
+    },
+    "ativo": true,
+    "data_cadastro": {
+      "$date": "2025-07-22T18:15:00Z"
+    }
+  },
+  {
+    "_id": 6,
+    "nome": "Marilyn Voss",
+    "data_nascimento": {
+      "$date": "1975-03-08T00:00:00Z"
+    },
+    "contato": {
+      "email": "marilyn.voss@email.com",
+      "telefone": "+1 212 555-1222"
+    },
+    "endereco": {
+      "cidade": "Filadélfia",
+      "estado": "PA",
+      "pais": "EUA"
+    },
+    "documento": {
+      "tipo": "passaporte",
+      "numero": "PP-4047514",
+      "pais_emissor": "EUA"
+    },
+    "preferencias": [
+      "travesseiro_extra"
+    ],
+    "programa_fidelidade": {
+      "nivel": "Bronze",
+      "pontos": 800
+    },
+    "ativo": true,
+    "data_cadastro": {
+      "$date": "2025-09-20T17:45:00Z"
+    }
+  },
+  {
+    "_id": 7,
+    "nome": "Eugene Hartley",
+    "data_nascimento": {
+      "$date": "1955-12-14T00:00:00Z"
+    },
+    "contato": {
+      "email": "eugene.hartley@email.com",
+      "telefone": "+1 212 555-1259"
+    },
+    "endereco": {
+      "cidade": "Seattle",
+      "estado": "WA",
+      "pais": "EUA"
+    },
+    "documento": {
+      "tipo": "passaporte",
+      "numero": "PP-4055433",
+      "pais_emissor": "EUA"
+    },
+    "preferencias": [
+      "andar_alto"
+    ],
+    "programa_fidelidade": {
+      "nivel": "Prata",
+      "pontos": 1900
+    },
+    "ativo": true,
+    "data_cadastro": {
+      "$date": "2025-03-15T14:15:00Z"
+    }
+  },
+  {
+    "_id": 8,
+    "nome": "Betty Sorensen",
+    "data_nascimento": {
+      "$date": "1980-06-02T00:00:00Z"
+    },
+    "contato": {
+      "email": "betty.sorensen@email.com",
+      "telefone": "+1 212 555-1296"
+    },
+    "endereco": {
+      "cidade": "Copenhague",
+      "estado": null,
+      "pais": "Dinamarca"
+    },
+    "documento": {
+      "tipo": "passaporte",
+      "numero": "PP-4063352",
+      "pais_emissor": "Dinamarca"
+    },
+    "preferencias": [
+      "cafe_cedo",
+      "quarto_silencioso"
+    ],
+    "programa_fidelidade": {
+      "nivel": "Bronze",
+      "pontos": 700
+    },
+    "ativo": true,
+    "data_cadastro": {
+      "$date": "2025-10-05T12:15:00Z"
+    }
+  },
+  {
+    "_id": 9,
+    "nome": "Arthur Kimura",
+    "data_nascimento": {
+      "$date": "1969-01-26T00:00:00Z"
+    },
+    "contato": {
+      "email": "arthur.kimura@email.com",
+      "telefone": "+1 212 555-1333"
+    },
+    "endereco": {
+      "cidade": "Tóquio",
+      "estado": null,
+      "pais": "Japão"
+    },
+    "documento": {
+      "tipo": "passaporte",
+      "numero": "PP-4071271",
+      "pais_emissor": "Japão"
+    },
+    "preferencias": [
+      "vista_panoramica"
+    ],
+    "programa_fidelidade": {
+      "nivel": "Prata",
+      "pontos": 1500
+    },
+    "ativo": true,
+    "data_cadastro": {
+      "$date": "2025-12-03T10:45:00Z"
+    }
+  },
+  {
+    "_id": 10,
+    "nome": "Ruth Okafor",
+    "data_nascimento": {
+      "$date": "1984-08-19T00:00:00Z"
+    },
+    "contato": {
+      "email": "ruth.okafor@email.com",
+      "telefone": "+1 212 555-1370"
+    },
+    "endereco": {
+      "cidade": "Lagos",
+      "estado": null,
+      "pais": "Nigéria"
+    },
+    "documento": {
+      "tipo": "passaporte",
+      "numero": "PP-4079190",
+      "pais_emissor": "Nigéria"
+    },
+    "preferencias": [
+      "banheira"
+    ],
+    "programa_fidelidade": {
+      "nivel": "Bronze",
+      "pontos": 400
+    },
+    "ativo": true,
+    "data_cadastro": {
+      "$date": "2025-04-13T11:00:00Z"
+    }
+  },
+  {
+    "_id": 11,
+    "nome": "Leonardo Vasquez",
+    "data_nascimento": {
+      "$date": "1977-05-11T00:00:00Z"
+    },
+    "contato": {
+      "email": "leonardo.vasquez@email.com",
+      "telefone": "+1 212 555-1407"
+    },
+    "endereco": {
+      "cidade": "São Paulo",
+      "estado": "SP",
+      "pais": "Brasil"
+    },
+    "documento": {
+      "tipo": "passaporte",
+      "numero": "PP-4087109",
+      "pais_emissor": "Brasil"
+    },
+    "preferencias": [
+      "andar_alto",
+      "vista_mar"
+    ],
+    "programa_fidelidade": {
+      "nivel": "Prata",
+      "pontos": 1700
+    },
+    "ativo": true,
+    "data_cadastro": {
+      "$date": "2025-09-20T14:15:00Z"
+    }
+  },
+  {
+    "_id": 12,
+    "nome": "Gloria Tanaka",
+    "data_nascimento": {
+      "$date": "1990-10-03T00:00:00Z"
+    },
+    "contato": {
+      "email": "gloria.tanaka@email.com",
+      "telefone": "+1 212 555-1444"
+    },
+    "endereco": {
+      "cidade": "Lisboa",
+      "estado": null,
+      "pais": "Portugal"
+    },
+    "documento": {
+      "tipo": "passaporte",
+      "numero": "PP-4095028",
+      "pais_emissor": "Portugal"
+    },
+    "preferencias": [
+      "quarto_silencioso"
+    ],
+    "programa_fidelidade": {
+      "nivel": "Bronze",
+      "pontos": 300
+    },
+    "ativo": true,
+    "data_cadastro": {
+      "$date": "2025-11-13T14:30:00Z"
+    }
+  },
+  {
+    "_id": 13,
+    "nome": "Mortimer Quill",
+    "data_nascimento": {
+      "$date": "1946-03-29T00:00:00Z"
+    },
+    "contato": {
+      "email": "mortimer.quill@email.com",
+      "telefone": "+1 212 555-1481"
+    },
+    "endereco": {
+      "cidade": "Londres",
+      "estado": null,
+      "pais": "Reino Unido"
+    },
+    "documento": {
+      "tipo": "passaporte",
+      "numero": "PP-4102947",
+      "pais_emissor": "Reino Unido"
+    },
+    "preferencias": [
+      "banheira",
+      "andar_alto"
+    ],
+    "programa_fidelidade": {
+      "nivel": "Ouro",
+      "pontos": 3900
+    },
+    "ativo": true,
+    "data_cadastro": {
+      "$date": "2025-11-26T12:00:00Z"
+    }
+  },
+  {
+    "_id": 14,
+    "nome": "Dolores Ximenes",
+    "data_nascimento": {
+      "$date": "1982-12-07T00:00:00Z"
+    },
+    "contato": {
+      "email": "dolores.ximenes@email.com",
+      "telefone": "+1 212 555-1518"
+    },
+    "endereco": {
+      "cidade": "Cidade do México",
+      "estado": null,
+      "pais": "México"
+    },
+    "documento": {
+      "tipo": "passaporte",
+      "numero": "PP-4110866",
+      "pais_emissor": "México"
+    },
+    "preferencias": [
+      "vista_panoramica",
+      "cafe_cedo"
+    ],
+    "programa_fidelidade": {
+      "nivel": "Bronze",
+      "pontos": 900
+    },
+    "ativo": true,
+    "data_cadastro": {
+      "$date": "2025-06-18T10:45:00Z"
+    }
+  }
+]

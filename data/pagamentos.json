@@ -1,0 +1,587 @@
+[
+  {
+    "_id": 1,
+    "hospedagem_id": 1,
+    "valor": 570,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-01-09T10:55:00Z"
+    },
+    "transacao_id": "TXN-CC-00001",
+    "detalhes": {
+      "bandeira": "visa",
+      "parcelas": 2
+    }
+  },
+  {
+    "_id": 2,
+    "hospedagem_id": 1,
+    "valor": 420,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-01-09T10:57:00Z"
+    },
+    "transacao_id": "TXN-PG-00002",
+    "detalhes": {
+      "banco": "Banco Nebula"
+    }
+  },
+  {
+    "_id": 3,
+    "hospedagem_id": 2,
+    "valor": 1085,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-01-25T11:40:00Z"
+    },
+    "transacao_id": "TXN-CC-00003",
+    "detalhes": {
+      "bandeira": "mastercard",
+      "parcelas": 1
+    }
+  },
+  {
+    "_id": 4,
+    "hospedagem_id": 3,
+    "valor": 1800,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-02-13T10:55:00Z"
+    },
+    "transacao_id": "TXN-CC-00004",
+    "detalhes": {
+      "bandeira": "mastercard",
+      "parcelas": 2
+    }
+  },
+  {
+    "_id": 5,
+    "hospedagem_id": 3,
+    "valor": 350,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-02-13T10:57:00Z"
+    },
+    "transacao_id": "TXN-PG-00005",
+    "detalhes": {
+      "banco": "Banco Nebula"
+    }
+  },
+  {
+    "_id": 6,
+    "hospedagem_id": 4,
+    "valor": 1735,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-02-15T11:25:00Z"
+    },
+    "transacao_id": "TXN-CC-00006",
+    "detalhes": {
+      "bandeira": "mastercard",
+      "parcelas": 2
+    }
+  },
+  {
+    "_id": 7,
+    "hospedagem_id": 5,
+    "valor": 2100,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-03-09T11:10:00Z"
+    },
+    "transacao_id": "TXN-CC-00007",
+    "detalhes": {
+      "bandeira": "visa",
+      "parcelas": 2
+    }
+  },
+  {
+    "_id": 8,
+    "hospedagem_id": 5,
+    "valor": 115,
+    "metodo": "cartao_debito",
+    "status": "estornado",
+    "data_pagamento": {
+      "$date": "2026-03-09T11:12:00Z"
+    },
+    "transacao_id": "TXN-PG-00008",
+    "detalhes": {
+      "banco": "Banco Nebula"
+    }
+  },
+  {
+    "_id": 9,
+    "hospedagem_id": 6,
+    "valor": 1625,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-03-16T10:40:00Z"
+    },
+    "transacao_id": "TXN-CC-00009",
+    "detalhes": {
+      "bandeira": "mastercard",
+      "parcelas": 3
+    }
+  },
+  {
+    "_id": 10,
+    "hospedagem_id": 7,
+    "valor": 540,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-03-27T11:25:00Z"
+    },
+    "transacao_id": "TXN-CC-00010",
+    "detalhes": {
+      "bandeira": "visa",
+      "parcelas": 1
+    }
+  },
+  {
+    "_id": 11,
+    "hospedagem_id": 7,
+    "valor": 750,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-03-27T11:27:00Z"
+    },
+    "transacao_id": "TXN-PG-00011",
+    "detalhes": {
+      "banco": "Banco Nebula"
+    }
+  },
+  {
+    "_id": 12,
+    "hospedagem_id": 8,
+    "valor": 880,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-04-06T10:25:00Z"
+    },
+    "transacao_id": "TXN-CC-00012",
+    "detalhes": {
+      "bandeira": "mastercard",
+      "parcelas": 3
+    }
+  },
+  {
+    "_id": 13,
+    "hospedagem_id": 9,
+    "valor": 380,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-04-15T11:40:00Z"
+    },
+    "transacao_id": "TXN-CC-00013",
+    "detalhes": {
+      "bandeira": "visa",
+      "parcelas": 1
+    }
+  },
+  {
+    "_id": 14,
+    "hospedagem_id": 9,
+    "valor": 1000,
+    "metodo": "cartao_debito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-04-15T11:42:00Z"
+    },
+    "transacao_id": "TXN-PG-00014",
+    "detalhes": {
+      "banco": "Banco Nebula"
+    }
+  },
+  {
+    "_id": 15,
+    "hospedagem_id": 10,
+    "valor": 2400,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-04-27T10:40:00Z"
+    },
+    "transacao_id": "TXN-CC-00015",
+    "detalhes": {
+      "bandeira": "mastercard",
+      "parcelas": 3
+    }
+  },
+  {
+    "_id": 16,
+    "hospedagem_id": 11,
+    "valor": 1260,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-05-13T11:25:00Z"
+    },
+    "transacao_id": "TXN-CC-00016",
+    "detalhes": {
+      "bandeira": "mastercard",
+      "parcelas": 3
+    }
+  },
+  {
+    "_id": 17,
+    "hospedagem_id": 11,
+    "valor": 780,
+    "metodo": "cartao_debito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-05-13T11:27:00Z"
+    },
+    "transacao_id": "TXN-PG-00017",
+    "detalhes": {
+      "banco": "Banco Nebula"
+    }
+  },
+  {
+    "_id": 18,
+    "hospedagem_id": 12,
+    "valor": 2170,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-05-15T11:10:00Z"
+    },
+    "transacao_id": "TXN-CC-00018",
+    "detalhes": {
+      "bandeira": "mastercard",
+      "parcelas": 3
+    }
+  },
+  {
+    "_id": 19,
+    "hospedagem_id": 13,
+    "valor": 6600,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-06-03T10:25:00Z"
+    },
+    "transacao_id": "TXN-CC-00019",
+    "detalhes": {
+      "bandeira": "mastercard",
+      "parcelas": 3
+    }
+  },
+  {
+    "_id": 20,
+    "hospedagem_id": 13,
+    "valor": 260,
+    "metodo": "dinheiro",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-06-03T10:27:00Z"
+    },
+    "transacao_id": "TXN-PG-00020",
+    "detalhes": {
+      "banco": "Banco Nebula"
+    }
+  },
+  {
+    "_id": 21,
+    "hospedagem_id": 14,
+    "valor": 2210,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-06-05T10:55:00Z"
+    },
+    "transacao_id": "TXN-CC-00021",
+    "detalhes": {
+      "bandeira": "visa",
+      "parcelas": 3
+    }
+  },
+  {
+    "_id": 22,
+    "hospedagem_id": 15,
+    "valor": 2240,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-06-16T11:25:00Z"
+    },
+    "transacao_id": "TXN-CC-00022",
+    "detalhes": {
+      "bandeira": "mastercard",
+      "parcelas": 2
+    }
+  },
+  {
+    "_id": 23,
+    "hospedagem_id": 15,
+    "valor": 775,
+    "metodo": "dinheiro",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-06-16T11:27:00Z"
+    },
+    "transacao_id": "TXN-PG-00023",
+    "detalhes": {
+      "banco": "Banco Nebula"
+    }
+  },
+  {
+    "_id": 24,
+    "hospedagem_id": 16,
+    "valor": 540,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-06-24T10:55:00Z"
+    },
+    "transacao_id": "TXN-CC-00024",
+    "detalhes": {
+      "bandeira": "mastercard",
+      "parcelas": 3
+    }
+  },
+  {
+    "_id": 25,
+    "hospedagem_id": 17,
+    "valor": 2250,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-07-10T11:55:00Z"
+    },
+    "transacao_id": "TXN-CC-00025",
+    "detalhes": {
+      "bandeira": "visa",
+      "parcelas": 1
+    }
+  },
+  {
+    "_id": 26,
+    "hospedagem_id": 17,
+    "valor": 315,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-07-10T11:57:00Z"
+    },
+    "transacao_id": "TXN-PG-00026",
+    "detalhes": {
+      "banco": "Banco Nebula"
+    }
+  },
+  {
+    "_id": 27,
+    "hospedagem_id": 18,
+    "valor": 1665,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-07-11T11:55:00Z"
+    },
+    "transacao_id": "TXN-CC-00027",
+    "detalhes": {
+      "bandeira": "mastercard",
+      "parcelas": 1
+    }
+  },
+  {
+    "_id": 28,
+    "hospedagem_id": 19,
+    "valor": 2240,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-07-22T10:40:00Z"
+    },
+    "transacao_id": "TXN-CC-00028",
+    "detalhes": {
+      "bandeira": "mastercard",
+      "parcelas": 3
+    }
+  },
+  {
+    "_id": 29,
+    "hospedagem_id": 19,
+    "valor": 1455,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-07-22T10:42:00Z"
+    },
+    "transacao_id": "TXN-PG-00029",
+    "detalhes": {
+      "banco": "Banco Nebula"
+    }
+  },
+  {
+    "_id": 30,
+    "hospedagem_id": 20,
+    "valor": 2575,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-07-23T10:55:00Z"
+    },
+    "transacao_id": "TXN-CC-00030",
+    "detalhes": {
+      "bandeira": "visa",
+      "parcelas": 3
+    }
+  },
+  {
+    "_id": 31,
+    "hospedagem_id": 21,
+    "valor": 1560,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-08-10T10:10:00Z"
+    },
+    "transacao_id": "TXN-CC-00031",
+    "detalhes": {
+      "bandeira": "mastercard",
+      "parcelas": 3
+    }
+  },
+  {
+    "_id": 32,
+    "hospedagem_id": 21,
+    "valor": 180,
+    "metodo": "cartao_debito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-08-10T10:12:00Z"
+    },
+    "transacao_id": "TXN-PG-00032",
+    "detalhes": {
+      "banco": "Banco Nebula"
+    }
+  },
+  {
+    "_id": 33,
+    "hospedagem_id": 22,
+    "valor": 1000,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-08-21T10:10:00Z"
+    },
+    "transacao_id": "TXN-CC-00033",
+    "detalhes": {
+      "bandeira": "visa",
+      "parcelas": 2
+    }
+  },
+  {
+    "_id": 34,
+    "hospedagem_id": 23,
+    "valor": 1040,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-08-22T10:40:00Z"
+    },
+    "transacao_id": "TXN-CC-00034",
+    "detalhes": {
+      "bandeira": "mastercard",
+      "parcelas": 1
+    }
+  },
+  {
+    "_id": 35,
+    "hospedagem_id": 23,
+    "valor": 570,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-08-22T10:42:00Z"
+    },
+    "transacao_id": "TXN-PG-00035",
+    "detalhes": {
+      "banco": "Banco Nebula"
+    }
+  },
+  {
+    "_id": 36,
+    "hospedagem_id": 24,
+    "valor": 1545,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-09-09T10:10:00Z"
+    },
+    "transacao_id": "TXN-CC-00036",
+    "detalhes": {
+      "bandeira": "visa",
+      "parcelas": 3
+    }
+  },
+  {
+    "_id": 37,
+    "hospedagem_id": 25,
+    "valor": 2800,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-09-14T10:10:00Z"
+    },
+    "transacao_id": "TXN-CC-00037",
+    "detalhes": {
+      "bandeira": "mastercard",
+      "parcelas": 2
+    }
+  },
+  {
+    "_id": 38,
+    "hospedagem_id": 25,
+    "valor": 960,
+    "metodo": "pix",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-09-14T10:12:00Z"
+    },
+    "transacao_id": "TXN-PG-00038",
+    "detalhes": {
+      "banco": "Banco Nebula"
+    }
+  },
+  {
+    "_id": 39,
+    "hospedagem_id": 26,
+    "valor": 2645,
+    "metodo": "cartao_credito",
+    "status": "aprovado",
+    "data_pagamento": {
+      "$date": "2026-09-27T11:40:00Z"
+    },
+    "transacao_id": "TXN-CC-00039",
+    "detalhes": {
+      "bandeira": "visa",
+      "parcelas": 2
+    }
+  },
+  {
+    "_id": 40,
+    "hospedagem_id": 27,
+    "valor": 3570,
+    "metodo": "cartao_credito",
+    "status": "pendente",
+    "data_pagamento": null,
+    "transacao_id": "TXN-CC-00040",
+    "detalhes": {
+      "bandeira": "visa",
+      "parcelas": 1
+    }
+  }
+]

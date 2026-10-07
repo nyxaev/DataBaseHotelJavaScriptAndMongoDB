@@ -1,0 +1,425 @@
+[
+  {
+    "_id": 1,
+    "hospede_id": 1,
+    "hospedagem_id": 1,
+    "quarto_id": 2,
+    "data_avaliacao": {
+      "$date": "2026-01-10T10:50:00Z"
+    },
+    "nota_geral": 4.1,
+    "notas": {
+      "limpeza": 4.5,
+      "atendimento": 4.0,
+      "conforto": 4.0,
+      "custo_beneficio": 4.0
+    },
+    "comentario": "A sessão de cinema no terraço foi o ponto alto da viagem.",
+    "tags": [
+      "decoracao"
+    ]
+  },
+  {
+    "_id": 2,
+    "hospede_id": 2,
+    "hospedagem_id": 2,
+    "quarto_id": 3,
+    "data_avaliacao": {
+      "$date": "2026-01-26T11:35:00Z"
+    },
+    "nota_geral": 3.9,
+    "notas": {
+      "limpeza": 4.0,
+      "atendimento": 3.5,
+      "conforto": 4.5,
+      "custo_beneficio": 3.5
+    },
+    "comentario": "Ambiente silencioso, ideal para descansar.",
+    "tags": [
+      "silencio"
+    ]
+  },
+  {
+    "_id": 3,
+    "hospede_id": 1,
+    "hospedagem_id": 4,
+    "quarto_id": 5,
+    "data_avaliacao": {
+      "$date": "2026-02-16T11:20:00Z"
+    },
+    "nota_geral": 4.8,
+    "notas": {
+      "limpeza": 4.5,
+      "atendimento": 4.5,
+      "conforto": 5.0,
+      "custo_beneficio": 5.0
+    },
+    "comentario": "O robô mordomo trouxe o café em três minutos. Estou no futuro e gostei.",
+    "tags": [
+      "retro"
+    ]
+  },
+  {
+    "_id": 4,
+    "hospede_id": 5,
+    "hospedagem_id": 5,
+    "quarto_id": 3,
+    "data_avaliacao": {
+      "$date": "2026-03-10T11:05:00Z"
+    },
+    "nota_geral": 4.4,
+    "notas": {
+      "limpeza": 5.0,
+      "atendimento": 5.0,
+      "conforto": 3.5,
+      "custo_beneficio": 4.0
+    },
+    "comentario": "O tour pelo observatório vale cada centavo. Voltaremos.",
+    "tags": [
+      "atendimento",
+      "retro"
+    ]
+  },
+  {
+    "_id": 5,
+    "hospede_id": 6,
+    "hospedagem_id": 6,
+    "quarto_id": 9,
+    "data_avaliacao": {
+      "$date": "2026-03-17T10:35:00Z"
+    },
+    "nota_geral": 4.4,
+    "notas": {
+      "limpeza": 4.5,
+      "atendimento": 4.0,
+      "conforto": 5.0,
+      "custo_beneficio": 4.0
+    },
+    "comentario": "Check-in rápido e atendimento cordial. Ótimo custo-benefício.",
+    "tags": [
+      "custo_beneficio",
+      "retro",
+      "silencio"
+    ]
+  },
+  {
+    "_id": 6,
+    "hospede_id": 7,
+    "hospedagem_id": 8,
+    "quarto_id": 2,
+    "data_avaliacao": {
+      "$date": "2026-04-07T10:20:00Z"
+    },
+    "nota_geral": 4.5,
+    "notas": {
+      "limpeza": 4.5,
+      "atendimento": 3.5,
+      "conforto": 5.0,
+      "custo_beneficio": 5.0
+    },
+    "comentario": "Decoração incrível, parece que o amanhã chegou em 1957.",
+    "tags": [
+      "silencio",
+      "decoracao",
+      "retro"
+    ]
+  },
+  {
+    "_id": 7,
+    "hospede_id": 8,
+    "hospedagem_id": 9,
+    "quarto_id": 2,
+    "data_avaliacao": {
+      "$date": "2026-04-16T11:35:00Z"
+    },
+    "nota_geral": 4.0,
+    "notas": {
+      "limpeza": 4.0,
+      "atendimento": 4.0,
+      "conforto": 3.5,
+      "custo_beneficio": 4.5
+    },
+    "comentario": "Check-in rápido e atendimento cordial. Ótimo custo-benefício.",
+    "tags": [
+      "silencio"
+    ]
+  },
+  {
+    "_id": 8,
+    "hospede_id": 1,
+    "hospedagem_id": 10,
+    "quarto_id": 4,
+    "data_avaliacao": {
+      "$date": "2026-04-28T10:35:00Z"
+    },
+    "nota_geral": 3.8,
+    "notas": {
+      "limpeza": 4.5,
+      "atendimento": 3.5,
+      "conforto": 3.5,
+      "custo_beneficio": 3.5
+    },
+    "comentario": "O tour pelo observatório vale cada centavo. Voltaremos.",
+    "tags": [
+      "retro",
+      "limpeza"
+    ]
+  },
+  {
+    "_id": 9,
+    "hospede_id": 3,
+    "hospedagem_id": 12,
+    "quarto_id": 5,
+    "data_avaliacao": {
+      "$date": "2026-05-16T11:05:00Z"
+    },
+    "nota_geral": 4.5,
+    "notas": {
+      "limpeza": 4.5,
+      "atendimento": 4.5,
+      "conforto": 4.0,
+      "custo_beneficio": 5.0
+    },
+    "comentario": "Quarto impecável, cama confortável e equipe muito atenciosa.",
+    "tags": [
+      "atendimento",
+      "custo_beneficio",
+      "vista"
+    ]
+  },
+  {
+    "_id": 10,
+    "hospede_id": 10,
+    "hospedagem_id": 13,
+    "quarto_id": 7,
+    "data_avaliacao": {
+      "$date": "2026-06-04T10:20:00Z"
+    },
+    "nota_geral": 3.9,
+    "notas": {
+      "limpeza": 3.5,
+      "atendimento": 5.0,
+      "conforto": 3.5,
+      "custo_beneficio": 3.5
+    },
+    "comentario": "Ambiente silencioso, ideal para descansar.",
+    "tags": [
+      "decoracao"
+    ]
+  },
+  {
+    "_id": 11,
+    "hospede_id": 11,
+    "hospedagem_id": 14,
+    "quarto_id": 9,
+    "data_avaliacao": {
+      "$date": "2026-06-06T10:50:00Z"
+    },
+    "nota_geral": 4.0,
+    "notas": {
+      "limpeza": 3.5,
+      "atendimento": 4.0,
+      "conforto": 5.0,
+      "custo_beneficio": 3.5
+    },
+    "comentario": "O robô mordomo trouxe o café em três minutos. Estou no futuro e gostei.",
+    "tags": [
+      "vista",
+      "retro",
+      "limpeza"
+    ]
+  },
+  {
+    "_id": 12,
+    "hospede_id": 12,
+    "hospedagem_id": 16,
+    "quarto_id": 10,
+    "data_avaliacao": {
+      "$date": "2026-06-25T10:50:00Z"
+    },
+    "nota_geral": 4.2,
+    "notas": {
+      "limpeza": 4.0,
+      "atendimento": 5.0,
+      "conforto": 4.5,
+      "custo_beneficio": 3.5
+    },
+    "comentario": "Jukebox no lobby, milkshake no diner e vista para o mar. Perfeito.",
+    "tags": [
+      "decoracao",
+      "atendimento",
+      "custo_beneficio"
+    ]
+  },
+  {
+    "_id": 13,
+    "hospede_id": 13,
+    "hospedagem_id": 17,
+    "quarto_id": 4,
+    "data_avaliacao": {
+      "$date": "2026-07-11T11:50:00Z"
+    },
+    "nota_geral": 4.4,
+    "notas": {
+      "limpeza": 4.0,
+      "atendimento": 5.0,
+      "conforto": 4.0,
+      "custo_beneficio": 4.5
+    },
+    "comentario": "Quarto impecável, cama confortável e equipe muito atenciosa.",
+    "tags": [
+      "retro",
+      "decoracao",
+      "silencio"
+    ]
+  },
+  {
+    "_id": 14,
+    "hospede_id": 7,
+    "hospedagem_id": 18,
+    "quarto_id": 3,
+    "data_avaliacao": {
+      "$date": "2026-07-12T11:50:00Z"
+    },
+    "nota_geral": 4.8,
+    "notas": {
+      "limpeza": 5.0,
+      "atendimento": 4.5,
+      "conforto": 5.0,
+      "custo_beneficio": 4.5
+    },
+    "comentario": "Check-in rápido e atendimento cordial. Ótimo custo-benefício.",
+    "tags": [
+      "retro",
+      "silencio",
+      "atendimento"
+    ]
+  },
+  {
+    "_id": 15,
+    "hospede_id": 1,
+    "hospedagem_id": 20,
+    "quarto_id": 7,
+    "data_avaliacao": {
+      "$date": "2026-07-24T10:50:00Z"
+    },
+    "nota_geral": 3.9,
+    "notas": {
+      "limpeza": 4.0,
+      "atendimento": 3.5,
+      "conforto": 4.5,
+      "custo_beneficio": 3.5
+    },
+    "comentario": "A sessão de cinema no terraço foi o ponto alto da viagem.",
+    "tags": [
+      "cafe_da_manha"
+    ]
+  },
+  {
+    "_id": 16,
+    "hospede_id": 6,
+    "hospedagem_id": 21,
+    "quarto_id": 9,
+    "data_avaliacao": {
+      "$date": "2026-08-11T10:05:00Z"
+    },
+    "nota_geral": 4.4,
+    "notas": {
+      "limpeza": 3.5,
+      "atendimento": 5.0,
+      "conforto": 4.0,
+      "custo_beneficio": 5.0
+    },
+    "comentario": "Jukebox no lobby, milkshake no diner e vista para o mar. Perfeito.",
+    "tags": [
+      "cafe_da_manha"
+    ]
+  },
+  {
+    "_id": 17,
+    "hospede_id": 9,
+    "hospedagem_id": 22,
+    "quarto_id": 1,
+    "data_avaliacao": {
+      "$date": "2026-08-22T10:05:00Z"
+    },
+    "nota_geral": 4.6,
+    "notas": {
+      "limpeza": 5.0,
+      "atendimento": 4.5,
+      "conforto": 4.0,
+      "custo_beneficio": 5.0
+    },
+    "comentario": "Decoração incrível, parece que o amanhã chegou em 1957.",
+    "tags": [
+      "vista",
+      "custo_beneficio",
+      "cafe_da_manha"
+    ]
+  },
+  {
+    "_id": 18,
+    "hospede_id": 4,
+    "hospedagem_id": 24,
+    "quarto_id": 3,
+    "data_avaliacao": {
+      "$date": "2026-09-10T10:05:00Z"
+    },
+    "nota_geral": 4.0,
+    "notas": {
+      "limpeza": 4.0,
+      "atendimento": 4.0,
+      "conforto": 3.5,
+      "custo_beneficio": 4.5
+    },
+    "comentario": "Check-in rápido e atendimento cordial. Ótimo custo-benefício.",
+    "tags": [
+      "vista",
+      "silencio",
+      "retro"
+    ]
+  },
+  {
+    "_id": 19,
+    "hospede_id": 8,
+    "hospedagem_id": 25,
+    "quarto_id": 6,
+    "data_avaliacao": {
+      "$date": "2026-09-15T10:05:00Z"
+    },
+    "nota_geral": 4.4,
+    "notas": {
+      "limpeza": 3.5,
+      "atendimento": 4.5,
+      "conforto": 4.5,
+      "custo_beneficio": 5.0
+    },
+    "comentario": "Decoração incrível, parece que o amanhã chegou em 1957.",
+    "tags": [
+      "decoracao",
+      "limpeza",
+      "cafe_da_manha"
+    ]
+  },
+  {
+    "_id": 20,
+    "hospede_id": 3,
+    "hospedagem_id": 26,
+    "quarto_id": 5,
+    "data_avaliacao": {
+      "$date": "2026-09-28T11:35:00Z"
+    },
+    "nota_geral": 4.0,
+    "notas": {
+      "limpeza": 3.5,
+      "atendimento": 4.0,
+      "conforto": 4.0,
+      "custo_beneficio": 4.5
+    },
+    "comentario": "Ambiente silencioso, ideal para descansar.",
+    "tags": [
+      "custo_beneficio",
+      "decoracao"
+    ]
+  }
+]
